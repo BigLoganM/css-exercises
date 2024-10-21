@@ -1,18 +1,16 @@
 .Element-1{
-    background-color: black;
+    background-color: rgb(56, 9, 56);
     color: white;
-
-
 }
 
 
 .Element-2{
-    background-color: yellow;
+    background-color: rgb(107, 231, 107);
 }
 
 
 .Both{
     font-size: 28px;
-    font-family: 'Helvetica';
+    font-family: "Helvetica", "Times New Roman", "sans-serif";
 
 }
