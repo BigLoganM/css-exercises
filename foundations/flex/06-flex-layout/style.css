@@ -38,6 +38,7 @@ a {
   }
 
 img {
+  display: flex;
   width: 600px;
 }
 
@@ -57,7 +58,12 @@ input {
 }
 
 .content {
-  margin: auto;
+  display: flex;
+  flex:1;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+
 }
 
 .input  {
@@ -65,7 +71,6 @@ input {
   justify-content: center;
   margin-top: 16px;
   margin-bottom: 8px;
-  flex: 1;
 }
 .buttons {
   display: flex;
